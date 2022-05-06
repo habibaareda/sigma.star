@@ -1,0 +1,393 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    background: white;
+    padding: 15px 0px;
+}
+
+#header .container .navbar {
+    background: white;
+}
+
+#header .container .navbar-brand {
+    color: #696969;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#header .container span:first-child {
+    color: #FF8C00;
+}
+
+#header .container span:last-child {
+    color: #00BFFF;
+}
+
+
+#header .container .navbar ul li a {
+    color: #696969;
+}
+
+#header .container .navbar ul li {
+    padding: 0px 5px;
+}
+
+#header .container .navbar ul li .active {
+    color: #00BFFF;
+}
+
+#header .container .navbar ul li a:hover {
+    color: #00BFFF;
+
+}
+
+
+
+#main {
+    width: 100%;
+    height: 80vh;
+    background: white;
+    padding-top: 20px;
+    position: relative;
+
+}
+
+#main .container .row .div1 {
+    padding-top: 100px;
+}
+
+#main .container .row h1 {
+    color: #413e3e;
+    font-weight: bold;
+}
+
+#main .container .row p {
+    font-size: 20px;
+    color: #696969;
+}
+
+#main .container .row .abtn {
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 7px;
+    background-color: #00BFFF;
+    color: white;
+    width: 90px;
+    padding: 5px 10px;
+    box-shadow: 0 5px 10px greenyellow;
+}
+
+#main .container .row .abtn:hover {
+    background-color: blue;
+    box-shadow: 0 5px 10px rgb(84, 84, 214);
+}
+
+#main .container .row img {
+    position: absolute;
+    top: 0;
+    height: 450px;
+    width: 600px;
+    animation: anim 5s infinite;
+}
+
+
+#p2 {
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#p2 .container .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#p2 .container .row .div {
+    background: rgba(225, 225, 225, 0.3);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+#p2 .container .row .div i {
+    color: #00BFFF;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+#p2 .container .row .div h3 {
+    color: #696969;
+    padding-top: 25px;
+    font-size: 18px;
+}
+
+#p2 .container .row .div h3:hover {
+    color: #00BFFF;
+}
+
+#p2 .container .row .div p {
+    color: #8f8f8f;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+
+#about {
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#about .container .row img {
+    width: 100%;
+}
+
+#about .container .row h3 {
+    color: #708090;
+    font-size: 30px;
+}
+
+
+#about .container .row p {
+    font-size: 15px;
+}
+
+#Servic {
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: rgba(225, 225, 225, 0.3);
+}
+
+#Servic .container .top h3 {
+    color: #c8c9ca;
+    font-weight: 800;
+    text-shadow: 20px 20px #708090;
+    margin-bottom: 30px;
+}
+
+#Servic .container .top p {
+    font-size: 16px;
+}
+
+#Servic .container .row {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#Servic .container .row .box {
+    background: white;
+    margin: 10px;
+    height: auto;
+}
+
+#Servic .container .row i {
+    color: #00BFFF;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#Servic .container .row h4 {
+    margin-top: 15px;
+    padding-bottom: 25px;
+    font-size: 15px;
+}
+
+#Servic .container .row h4:hover {
+    color: #00BFFF;
+}
+
+#Servic .container .bottom h3 {
+    color: #c8c9ca;
+    font-weight: 800;
+    text-shadow: 20px 20px #708090;
+    margin-bottom: 30px;
+}
+
+#Servic .container .bottom p {
+    font-size: 16px;
+    padding-bottom: 100px;
+}
+
+
+
+#contact {
+    height: auto;
+}
+
+#contact .container .top h3 {
+    color: #c8c9ca;
+    font-weight: 800;
+    text-shadow: 20px 20px #708090;
+    margin-bottom: 30px;
+}
+
+#contact .container .top p {
+    font-size: 16px;
+    margin-top: 50px
+}
+
+
+#contact .container .information,
+#contact .container .register {
+    background: rgba(225, 225, 225, 0.3);
+    border-top: 3px solid #00BFFF;
+    border-bottom: 3px solid #00BFFF;
+    margin-bottom: 30px;
+}
+
+#contact .container .information i {
+    color: #00BFFF;
+    float: left;
+    margin: 20px;
+}
+
+#contact .container .information h5 {
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+#contact .container .information p {
+    padding-bottom: 15px;
+    padding-right: 30px;
+}
+
+#contact .container .information .location {
+    padding-right: 30px;
+
+}
+
+#contact .container .register .btn {
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    background: #399cbd;
+    border: 0px solid #399cbd;
+}
+
+#contact .container .register .btn:hover {
+    background: blue;
+}
+
+#footer {
+    background: rgba(225, 225, 225, 0.5);
+    height: 65vh;
+}
+
+#footer .container .top {
+    padding-top: 100px;
+    text-align: center;
+    height: 50vh;
+}
+
+#footer .container .top h2 {
+    font-weight: bold;
+    padding: 20px 15px;
+    color: #413e3e;
+    font-size: 40px;
+}
+
+#footer .container .top .box {
+    display: inline;
+    background: rgba(225, 225, 225, 0.5);
+    margin-left: 15px;
+    width: 36px;
+    height: 36px;
+}
+
+#footer .container .top .box a {
+    text-decoration: none;
+    color: #696969;
+    font-size: 25px;
+    padding: 10px 0px;
+
+}
+
+#footer .container .top .box:hover {
+    background: #399cbd;
+}
+
+#footer .container .top .box a:hover {
+    color: white;
+}
+#footer .container .row{
+    width: 90%;
+    border-top: 3px solid #696969;
+    display: inline-block;
+}
+#footer .container .row .copyriht h6{
+    float: left;
+    padding-top: 20px;
+}
+
+#footer .container .row .design h6{
+    padding-top: 20px;
+}
+
+
+
+@keyframes anim {
+    25% {
+        top: 5%;
+    }
+
+    50% {
+        top: 0;
+    }
+
+    75% {
+        top: 5%;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+@media (max-width:990px) {
+    #main {
+        height: 100vh;
+    }
+
+    #main .container .row .div1 {
+        padding-top: 300px;
+    }
+}
+
+@media (max-width:600px) {
+    #main {
+        height: 100vh;
+    }
+
+    #main .container .row img {
+        width: 90%;
+    }
+
+    #main .container .row .div1 {
+        float: left;
+    }
+
+    #main .container .row .div2 {
+        float: right;
+    }
+
+    #main .container .row p {
+        font-size: 15px;
+
+    }
+
+    #p2 .container .row .div {
+        width: 90%;
+    }
+
+    #footer .container .row .copyriht h6,
+    #footer .container .row .design h6{
+  font-size: 10px;
+    }
+}
